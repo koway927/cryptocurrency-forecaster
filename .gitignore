@@ -1,0 +1,186 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data Files
+# ================================
+# Large CSV files (should be tracked with DVC or Git LFS)
+*.csv
+*.csv.gz
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Exclude specific large data files
+20220801_book_updates.csv
+20220801_trades.csv
+20240415_book_updates.csv
+20240415_trades.csv
+feature_engineered_data.csv
+backtestingDataSample.csv
+backtestview.csv
+
+# IEX Campus Cluster Data & Parser
+# ================================
+iex-campus-cluster/
+iex-campus-cluster/**
+book_snapshots/
+**/book_snapshots/
+
+# IEX Parser Files
+iex_parser/
+iex-parser/
+**/iex_parser/
+**/iex-parser/
+*iex_parser*
+*iex-parser*
+*.iex
+iex_*.py
+iex-*.py
+parser_iex*.py
+
+# Model Artifacts
+# ================================
+models/
+*.pkl
+*.joblib
+*.model
+*.weights
+*.h5
+*.pb
+*.onnx
+
+# MLOps and Experiment Tracking
+# ================================
+mlruns/
+mlflow-runs/
+artifacts/
+.mlflow/
+wandb/
+.neptune/
+
+# DVC (Data Version Control)
+.dvc/cache/
+.dvc/tmp/
+.dvc/state
+.dvc/state-journal
+.dvc/updater
+.dvc/updater.lock
+
+# Logs
+# ================================
+logs/
+*.log
+*.out
+*.err
+
+# Temporary Files
+# ================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# Documentation Build
+docs/_build/
+docs/build/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Configuration Files (if containing sensitive data)
+config.ini
+config.yaml
+config.json
+secrets.yaml
+credentials.json
+
+# Large Binary Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.dmg
+*.iso
+
+# Compiled Files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
